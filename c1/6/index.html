@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>微机原理简答题 | wfmiss Notes</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/img/favicon.ico">
+    <meta name="description" content="我们在黑暗中并肩前行，走在各自的朝圣路上!">
+    <meta name="keywords" content="wfmiss,eric">
+    <meta name="theme-color" content="#11a8cd">
+    
+    <link rel="preload" href="/assets/css/0.styles.6c3cad56.css" as="style"><link rel="preload" href="/assets/js/app.f3f1a81b.js" as="script"><link rel="preload" href="/assets/js/2.b7d28b34.js" as="script"><link rel="preload" href="/assets/js/13.c98c26c1.js" as="script"><link rel="prefetch" href="/assets/js/10.3dcb08b2.js"><link rel="prefetch" href="/assets/js/11.0a18f7bd.js"><link rel="prefetch" href="/assets/js/12.c81a73a2.js"><link rel="prefetch" href="/assets/js/14.36d42ece.js"><link rel="prefetch" href="/assets/js/15.bda77217.js"><link rel="prefetch" href="/assets/js/16.80047c9b.js"><link rel="prefetch" href="/assets/js/17.548d378f.js"><link rel="prefetch" href="/assets/js/18.86a99a23.js"><link rel="prefetch" href="/assets/js/19.f47c7d29.js"><link rel="prefetch" href="/assets/js/20.7e536bfb.js"><link rel="prefetch" href="/assets/js/21.6dac4a9e.js"><link rel="prefetch" href="/assets/js/22.c40c5423.js"><link rel="prefetch" href="/assets/js/23.e52bc27f.js"><link rel="prefetch" href="/assets/js/24.bfa36715.js"><link rel="prefetch" href="/assets/js/25.195a37e7.js"><link rel="prefetch" href="/assets/js/26.2e9f5321.js"><link rel="prefetch" href="/assets/js/27.6e80d82e.js"><link rel="prefetch" href="/assets/js/28.2cd04043.js"><link rel="prefetch" href="/assets/js/29.47a1754b.js"><link rel="prefetch" href="/assets/js/3.c5f9f392.js"><link rel="prefetch" href="/assets/js/30.7d2dd507.js"><link rel="prefetch" href="/assets/js/31.d395de78.js"><link rel="prefetch" href="/assets/js/32.99af69ad.js"><link rel="prefetch" href="/assets/js/33.1e427cb5.js"><link rel="prefetch" href="/assets/js/34.f9dd6bb5.js"><link rel="prefetch" href="/assets/js/35.d7896692.js"><link rel="prefetch" href="/assets/js/4.f06af0e8.js"><link rel="prefetch" href="/assets/js/5.76fab509.js"><link rel="prefetch" href="/assets/js/6.e8823ccd.js"><link rel="prefetch" href="/assets/js/7.64b43ff1.js"><link rel="prefetch" href="/assets/js/8.a6738900.js"><link rel="prefetch" href="/assets/js/9.4baf5fe4.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.6c3cad56.css">
+  </head>
+  <body class="theme-mode-light">
+    <div id="app" data-server-rendered="true"><div class="theme-container sidebar-open have-rightmenu"><header class="navbar blur"><div title="目录" class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">wfmiss Notes</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="笔记" class="dropdown-title"><!----> <span class="title" style="display:;">笔记</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/notes/0/" class="nav-link">考试报名流程</a></li><li class="dropdown-item"><!----> <a href="/c/" class="nav-link">C语言</a></li><li class="dropdown-item"><!----> <a href="/smc/0/" class="nav-link">SMC</a></li><li class="dropdown-item"><!----> <a href="/vue/note0/" class="nav-link">Vue</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="练习题" class="dropdown-title"><!----> <span class="title" style="display:;">练习题</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/c1/1/" class="nav-link">C语言</a></li><li class="dropdown-item"><!----> <a href="/c1/" class="nav-link router-link-active">SMC&amp;P</a></li></ul></div></div><div class="nav-item"><a href="/about/" class="nav-link">关于</a></div><div class="nav-item"><a href="/archives/" class="nav-link">归档</a></div> <a href="https://github.com/wfmiss/notes" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar-hover-trigger"></div> <aside class="sidebar" style="display:none;"><!----> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="笔记" class="dropdown-title"><!----> <span class="title" style="display:;">笔记</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/notes/0/" class="nav-link">考试报名流程</a></li><li class="dropdown-item"><!----> <a href="/c/" class="nav-link">C语言</a></li><li class="dropdown-item"><!----> <a href="/smc/0/" class="nav-link">SMC</a></li><li class="dropdown-item"><!----> <a href="/vue/note0/" class="nav-link">Vue</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="练习题" class="dropdown-title"><!----> <span class="title" style="display:;">练习题</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/c1/1/" class="nav-link">C语言</a></li><li class="dropdown-item"><!----> <a href="/c1/" class="nav-link router-link-active">SMC&amp;P</a></li></ul></div></div><div class="nav-item"><a href="/about/" class="nav-link">关于</a></div><div class="nav-item"><a href="/archives/" class="nav-link">归档</a></div> <a href="https://github.com/wfmiss/notes" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><a href="/c1/1/" class="sidebar-link">C语言编程题</a></li><li><a href="/c1/2/" class="sidebar-link">微机原理简答题</a></li><li><a href="/c1/3/" class="sidebar-link">微机原理填空题</a></li><li><a href="/c1/4/" class="sidebar-link">微机原理指令集</a></li><li><a href="/c1/5/" class="sidebar-link">输入输出系统接口芯片</a></li><li><a href="/c1/6/" aria-current="page" class="active sidebar-link">微机原理简答题</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/c1/6/#计算机的部件及编程语言" class="sidebar-link">计算机的部件及编程语言</a></li><li class="sidebar-sub-header"><a href="/c1/6/#_8086-8088最小-最大工作模式" class="sidebar-link">8086/8088最小/最大工作模式</a></li><li class="sidebar-sub-header"><a href="/c1/6/#内存、存储器" class="sidebar-link">内存、存储器</a></li><li class="sidebar-sub-header"><a href="/c1/6/#总线、接口-总线周期" class="sidebar-link">总线、接口（总线周期）</a></li><li class="sidebar-sub-header"><a href="/c1/6/#中断" class="sidebar-link">中断</a></li><li class="sidebar-sub-header"><a href="/c1/6/#传送方式及奇偶地址体" class="sidebar-link">传送方式及奇偶地址体</a></li><li class="sidebar-sub-header"><a href="/c1/6/#指令周期、总线周期、时钟周期" class="sidebar-link">指令周期、总线周期、时钟周期</a></li></ul></li></ul> </aside> <div><main class="page"><div class="theme-vdoing-wrapper "><div class="articleInfo-wrap" data-v-0c557b5e><div class="articleInfo" data-v-0c557b5e><ul class="breadcrumbs" data-v-0c557b5e><li data-v-0c557b5e><a href="/" title="首页" class="iconfont icon-home router-link-active" data-v-0c557b5e></a></li> <li data-v-0c557b5e><a href="/c1/#练习题" data-v-0c557b5e>练习题</a></li></ul> <div class="info" data-v-0c557b5e><div title="作者" class="author iconfont icon-touxiang" data-v-0c557b5e><a href="https://wfmiss.cn" target="_blank" title="作者" class="beLink" data-v-0c557b5e>eric</a></div> <div title="创建时间" class="date iconfont icon-riqi" data-v-0c557b5e><a href="javascript:;" data-v-0c557b5e>2022-03-04</a></div> <!----></div></div></div> <!----> <div class="content-wrapper"><div class="right-menu-wrapper"><div class="right-menu-margin"><div class="right-menu-content"></div></div></div> <h1><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAABH1JREFUSA3tVl1oHFUUPmdmd2ltklqbpJDiNnXFmgbFktho7YMPNiJSSZM0+CAYSkUELVhM6YuwIPpgoOKDqOBDC0XE2CQoNtQXBUFTTcCi+Wlh1V2TQExsUzcltd3M9Tt3ZjZzZ2fT+OJTL8yeM+eee757fmeJbq//KQL8X3DUSFOcfr7cRsRtxNQMWueeVzOkaITIGqQHNg5y8+jNW9ldM7A6nTpAjuolUikAwq7CE3WcM2RRDz+XGVgN3FptU/aUSlvq9Pa3iZ1+sgAqJyyAFqkipd9dqiwHF3P65YycLWc/6sqGrvoEoIp6DOFaX5h6+dnfjkWprwqsPk0dUGq5vySwDImC10KxFHgGL1SWoc92O3eVht09qdXNH11I2SsTsJYqMWzihqGMi+A+Garf3BAuuLI5oGlULyNfyB/HYNujwktOfRrMr5t77NmevqaUopx0grnKAyvVpmwUDB4x6FPXuGvYLTDwWsejwgtgkYKPqRJg8SV6xaiZ3ZTppGneS4yfH5/66fZSDHv+QZci/+h5c5UHtpy67JUqGppM0sh0Nc1dW6/N1W5Yoqat8/TU/VnadmdeW2PLLSyh0cvxBs3KbqTmwYPpxN4do/mzE8nEpvX/UMu2Wbp74zUAK5q6WkHns7V0eWkdPbPzd3rxkTGybadYySumVzhcaJFbs5UrEkQ/+CK8gF5dnh/6ciIZ73gwQ927L1IitoxKLXYP3SjYdOrHHfTZhRRlFyrorafPk20B3HPD1y2G3qKZME5Jcf3t/HUC13/8tSd++vqFveMUTwAUxSUFI1QekR1+bIze3D9MF2aq6cPvG72CgnldWCFqyRw3lwH8ZMerjTD9ElRO7Gv44wNpC90aASqGfVlz/Rx17srQ57/UU26hkhQqUB7dBR71WmzQhHUnblGmVOEw0jhbV1n9OlXUDCIRGaNV5Jp43N516fN7JmnTHdfp7Hgy0luO4aMhtkLL8Bi3bUWYvzh5Mn1dTxrL6QmGuRhGL/TiTTxRoEdTszSaq9GR0NGA3KdkOz3hqSV3MIDhQ5IVX/Ivx3umBti2es2h4eZby7x8br1rkf7Mo90AqC8aQ3sJeNzqFRu+vSANAQe3PL7l0HGOAdwDCeZYvNKeoZp1Qfs6Aipndh86HmFRi0LAnEO47wsqM6cdfjh3jBPUzhZy7nvlUfFsamED1VQt6aISHVymXZ/B2aCtIG8AI8xfobj2d3en1wWVhOeHELKmLQ1s211s88comkv4UCwWyF787mJdYXtNfhKAXVqnKTq8QZvGAGGOfaTo5pGZ/PwbUCr5+DPr/1J92JNHr9aOl/F3iI5+O1nfybsGxoimvZ3ViWSluDITw3P37mypheDIPY0tw7+O/5ApbkYw+zpfaUVu32Pi98+defdUhEpZkRFq0aqyNh9FuL9hpYbEm6iwi0z2REd09ZmyENEbuhjDWzKvZXTqKYaBIr3tt5kuPtQBZFvEUwHt60vfCNu41XsksH9Ij1BMMz1Y0OOunHNShFIP5868g5zeXmuLwL9T4b6Q2+KejgAAAABJRU5ErkJggg==">微机原理简答题<!----></h1> <!----> <div class="theme-vdoing-content content__default"><h1 id="微机原理简答题-分类"><a href="#微机原理简答题-分类" class="header-anchor">#</a> 微机原理简答题（分类）</h1> <h2 id="计算机的部件及编程语言"><a href="#计算机的部件及编程语言" class="header-anchor">#</a> 计算机的部件及编程语言</h2> <p><strong>计算机硬件组成的五个部件是什么：？</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：输入设备、输出设备、运算器、存储器、控制器
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p><strong>计算器系统由什么组成？</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：硬件系统和软件系统两部分组成。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p><strong>简述RISC（精简指令集）的特点：</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：1、CPU处理指令是由硬件完成、运行速度快；
+    2、指令长度固定、指令格式种类少、寻址方式种类少；
+    3、只有取数/存数指令访问存储器，其余指令的操作都在寄存器内完成；
+    4、采用流水线技术，大部分指令在一个时钟周期内完成；
+    5、控制器采用组合逻辑控制，不用微程序控制。
+    6、采用优化的编译程序。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p><strong>寄存器按功能可分为几大类，分别说明包含什么寄存器？</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：可分为3大类8个通用寄存器、4个段寄存器、2个控制寄存器；
+    分别是：通用寄存器又分为4个数据寄存器、2个地址寄存器、2个变址寄存器；
+            数据寄存器：AX（累加器）、BX（基址寄存器）、CX（计数寄存器）、DX（数据寄存器）
+            地址寄存器：BP（基址指针寄存器）、SP（堆栈指针寄存器）
+            变址寄存器：SI（源变址寄存器）、DI（目标变址寄存器）
+            段寄存器：CS（代码段寄存器）、DS（数据段寄存器）、ES（附加段寄存器）、SS（堆栈段寄存器）
+            控制寄存器：IP（指令寄存器）、FLAGS（状态标志寄存器）
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><p><strong>简述8086和8088的区别：</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：1.8086：是完全16位机，外部总线和内部总线是16根；
+      8088：内部总线是16根，外部总线是8根；
+    2.8086：有6字节的指令队列；
+      8088：有4字节的指令队列；
+    3.8086：使用M/IO非（IO非，低电平）引脚；
+      8088：使用IO/M非（M非，低电平）引脚；
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p><strong>88/86两个单元的功能：</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：1、BIU：负责CUP对主存和外设接口进行访问
+		①取指令：从内存取指令，送指令队列
+		④取操作数：从内存或接口取操作数
+		⑦送结果：从BIU送内存或接口外设
+	2、EU：负责指令译码、执行和数据的运算
+		②取指令：从指令队列取指令送控制器
+		③分析译码：识别指令功能
+		⑤执行指令：在ALU中运算加工
+		⑥送结果：由EU送BIU
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><p><strong>写出CPU中主要寄存器：</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：AX、BX、CX、DX、SI、DI、BP、SP、IP、CS、DS、ES、SS、FR
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p><strong>8086CPU中有哪些寄存器？分别有什么用途。哪些寄存器用来指示存储器单元的偏移地址。</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：8086 CPU 中有 8 个通用寄存器 AX、BX、CX、DX、SP、BP、SI、DI；
+	两个控制寄存器 IP、FR；
+	四个段寄存器 CS、DS、SS、ES。
+	8 个通用寄存器都可以用来暂存参加运算的数据或中间结果，但又有各自的专门用途。
+	例如：AX 专用做累加器，某些指令指定用它存放操作数和运算结果；CX 为计数寄存器，在某些指令中做计数器使用；DX 为数据寄存器；BX 为基址寄存器，BP 为基址指针，SI 为源变址寄存器，DI 为目的变址寄存器，这 4 个寄存器在数据寻址中用来存放段内偏移地址（有效地址）或段内偏移地址的一部分；SP 为堆栈指示器，用来存放栈顶有效地址。
+	两个控制寄存器用来存放有关的状态信息和控制信息。
+	例如：标志寄存器 FR 用来存放状态标志和控制标志；而指令指针用来存放下一条要取指令的有效地址。
+	四个段寄存器用来存放段地址。
+	例如：CS 寄存器用来存放代码段的段地址；DS 寄存器用来存放数据段的段地址；SS 寄存器用来存放堆栈段的段地址；ES 寄存器用来存放扩展段的段地址。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><p><strong>什么是地址锁存器？8088/8086为什么要用地址锁存器？锁存的是什么信息？举例说明。</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：（1）地址锁存器是一个暂存器，它根据控制信号的状态将总线上的地址代码暂存起来。
+	（2）8088/8086 的数据和地址总线采用分时复用操作方式，即用同一总线既传送地址又传送数据。
+		当微处理器与存储器交换信号时，首先由 CPU 发送存储器的地址，同时发允许锁存信号ALE给锁存器，
+		当锁存器接到该信号后将地址/数据总线上的地址锁存在锁存器中，随后才能传送数据信息。
+	（3）8088/8086 系统的地址锁存器采用 74LS373/273 或者 8282/8283，每片能够锁8 位地址。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p><strong>8086CPU从接口上分为几部分？各部分由什么组成？各部分功能是什么？</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：（1）8086CPU 从功能上分为两大部分：一是执行部件(EU)，二是总线接口部件(BIU)。
+	（2）执行部件(EU)是由以下 4 部分组成：
+		①4 个通用寄存器：AX、BX、CX、DX。
+		②4 个专用寄存器：基址指针寄存器 BP，堆栈指针寄存器 SP，源变址寄存器SI，目的变址寄存器DI。
+		③标志寄存器 FR。
+		④算术逻辑部件 ALU。
+		功能：负责执行所有的指令，向总线接口部件(BIU)提供指令执行的结果数据和地址，并对通用寄存器和标志寄存器进行管理。
+	（3）总线接口部件(BIU)由以下部件组成:
+		①4 个段寄存器：代码段寄存器 CS，数据段寄存器 DS，附加段寄存器 ES，堆栈段寄存器SS。②指令指针寄存器。
+		③地址加法器。
+		④指令队列。
+		功能：执行外部总线周期，负责 CPU 与主存储器和外设之间的信息交换。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><p><strong>站在80X86，汇编语言程序员的角度，说明数据存储位置有哪些？访问这些数据可采用的寻址方式分别是什么？对这些位置对数据访问速度是否相同，为什么？</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：（1）数据存储位置有 CPU 内部的寄存器、内存、IO 端口
+	（2）采用的寻址方式分别是：
+		①寄存器操作数采用寄存器寻址
+		②存储器操作数采用直接寻址，寄存器间接寻址，寄存器相对寻址，基址变址寻址，相对基址变址寻址 
+		③IO 端口的访问需专门的 IO 指令，有直接寻址和间接寻址。
+	（3）速度不同，寄存器位于 CPU 内部，因此速度最快，存储器操作数速度较慢，因为需要通过系统总线访问内存，
+		端口的访问最慢，属于输入/输出操作。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h2 id="_8086-8088最小-最大工作模式"><a href="#_8086-8088最小-最大工作模式" class="header-anchor">#</a> 8086/8088最小/最大工作模式</h2> <p><strong>简述最小工作模式：</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：MN/MX非=1，为最小工作模式；
+    在系统中只有8086/8088一个微处理器，所有的总线控制信号直接由8086/8088产生；
+    因此，系统中的总线控制逻辑电路被减到最少，最小模式是单处理器系统。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p><strong>简述最大工作模式：</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：MN/MX非=0，为最大工作模式；
+    系统中有两个或两个以上的微处理器；即除了主处理器8086/8088以外，
+还有协处理器（8087算数协处理器或8089输入输出协处理器），最大模式可构成多处理器系统，
+系统中所有的控制信号由总线控制器（8288）提供。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p><strong>最小工作模式与最大工作模式的区别：</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：最大模式是相对最小模式而言的；
+    最大模式用在中等规模的或者大型8086/8088系统中；
+    在最大模式系统中，总是包含两个或多个微处理器其中一个主处理器就是8086/8088，
+其他的称为协处理器，它们是协助处理器工作的；
+    CPU工作模式的选择是由硬件决定的。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p><strong>在8086/8088系统中，什么是最大模式？什么是最小模式？用什么方法将8086/8088置为最大模式或最小模式？</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：（1）最小模式：在系统中只有 8086/8088 一个微处理器，所有的总线控制信号都直接由 8086/8088产生，因此，系统中总线控制电路被减到最少。
+	（2）最大模式：在系统中包含两个或多个微处理器，其中一个主处理器就是 8088/8086，其它处理器为协处理器，用于协助主处理器工作。它用在中等规模或大型的 8088/8086 系统中。一般情况下和 8088/8086配合的协处理器有两个：一个是数值运算协处理器 8087，一个是输入/输出协处理器 8089。
+	（3）将 8088/8086 CPU 的第 33 脚接地，系统处于最大模式，当第 33 脚接+5V 时，系统为最小模式。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h2 id="内存、存储器"><a href="#内存、存储器" class="header-anchor">#</a> 内存、存储器</h2> <p><strong>简述触发器、寄存器与存储器之间的关系：</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：触发器是计算机记忆装置的基本单元，一个触发器能存储一位二进制数也为一个一位寄存器；
+	多个出触发器就可以构成一个多位寄存器，而一个寄存器为为一个存储单元；
+	多个寄存器组成一个存储器。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p><strong>ROM、PROM、EPROM和EEPROM在使用上各有什么特点？</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：ROM：掩膜ROM，信息制作在芯片中，不可更改
+	PROM：允许一次编程，此后不可更改
+	EPROM：紫外线照射擦除，可多次擦除和编程，未编程前所有单元格信息都为1，写入后的部分为0
+	EEPROM：加电在线擦除和编写，可多次擦写
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p><strong>寄存器、cache、内存和外存的区别：</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：寄存器：是CUP内部暂存数据单元，如：AX、BX等；
+cache：位于CPU和内存之间，可直接与CPU进行数据交换，解决内存速度不足的问题；
+内存：也叫主存，可直接与CPU进行数据交换；
+外存：主要用来长久保存数据，如：硬盘、光盘、U盘等。外存的数据只能通过主存间接地与CPU交换数据。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p><strong>简述缓冲器、锁存器和触发器的作用。</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：
+（1）缓冲器：又称缓冲寄存器。
+	①完成速度的匹配，在高速工作的 CPU 与慢速工作的外设间起协调和缓冲作用，实现数据传送的同步。（1 分）
+	②提供一个暂存的空间。它分输入缓冲器和输出缓冲器两种。输入缓冲器是将外设送来的数据暂时存放，以便处理器将它取走；输出缓冲器是用来暂时存放处理器送往外设的数据。（1 分）
+	③提高驱动能力。（1 分）
+	④信号隔离的作用，消除负载对信号源的影响。（1 分）
+（2）锁存器（latch）：利用电平控制数据的传输。（1 分）
+	①缓存。（1 分）
+	②完成高速的控制器与慢速的外设的不同步问题。（1 分）
+	③解决驱动的问题。（1 分）
+（3）触发器：是最小的记忆单元,能记忆二进制数的一个数位，是寄存器、存储器基本元件。（2 分）
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><p><strong>简述半导体存储器的主要技术指标。</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：（1）存储容量。存储器可以存储的二进制信息总量称为存储容量。存储容量有两种表示方法：
+		①位表示方法。以存储器中的存储地址总数与存储字位的乘积表示。如 1K×4 位，表示该芯片有 1K 个单元（1K＝1024），每个存储单元的长度为 4 个二进制位。
+		②字节表示方法。以存储器中的单元总数表示（一个存储单元由 8 个二进制位组成，称为一个字节，用 B 表示）。如 128B，表示该芯片有 128 个单元。
+	（2）存取速度。存储器的存储速度可以用两个时间参数表示，一个是存取时间：从启动一次存储器操作到完成该操作所经历的时间；另一个是存储周期：启动两次独立的存储器操作之间所需的最小时间间隔。
+	（3）可靠性。存储器的可靠性用平均故障间隔时间 MTBF 来衡量。MTBF 越长，可靠性越高。
+	（4）存储带宽。单位时间传输的信息量。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h2 id="总线、接口-总线周期"><a href="#总线、接口-总线周期" class="header-anchor">#</a> 总线、接口（总线周期）</h2> <p><strong>什么是总线，简述各类总线的应用场合？</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：（1）总线（Bus）是计算机各种功能部件之间传送信息的公共通信线，
+		它是CPU、内存、输入、输出设备传递信息的公用通道，主机的各个部件通过总线相连接，
+		外部设备通过相应的接口电路再与总线相连接，从而形成了计算机硬件系统。
+	（2）按总线功能或信号类型来分，有数据总线、地址总线和控制总线。 按总线的层次结构分来为，有：
+		① CPU 片内总线：微机系统中速度最快的总线，主要在 CPU 内部，连接 CPU 内部部件，提供系统原始的控制和命令。
+		②系统总线：在系统总线和 CPU 总线之间的一级总线，提供 CPU 和主板器件之间以及CPU到高速外设之间的快速信息通道。
+		③通信总线：也称为外部总线，是微机与微机、微机与外设之间进行通信的总线。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><p><strong>简述在最小工作模式下，8086如何响应一个总线请求？</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：外部总线主控模块经 HOLD 引线向 8086 发出总线请求信号；
+	8086 在每个时钟周期的上升沿采样HOLD 引线；
+	若发现 HOLD=1 则在当前总线周期结束时(T4 结束)发出总线请求的响应信号HLDA；
+	8086使地址、数据及控制总线进入高阻状态，让出总线控制权，完成响应过程。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p><strong>简述CPU与外设进行数据交换的方式，并说明每种方式的特点。</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：CPU 与外设进行数据交换的方式有：无条件传送方式、查询传送方式、中断控制方式、直接存储器存取控制方式（DMA）和通道方式。
+	（1）程序控制方式: 特点是依靠程序的控制来实现主机和外设的数据传送，可分为无条件传送方式、查询方式和中断方式。
+		三种方式都是以 CPU 为中心的控制方式，都需要 CPU 执行程序来进行I/O数据传送。
+		①无条件传送方式：程序简单，所需的硬件和软件都比较少、传送速度快，但必须在确信外设已准备好的情况下才能使用。
+		②查询传送方式：CPU 通过程序不断查询相应设备的状态，状态不符合要求，则CPU 需要等待；只有当状态信号符合要求时，
+			CPU 才能进行相应的操作。硬件线路简单，程序易于实现；缺点是CPU利用率低下，实时性差。
+		③中断控制方式: 外设在准备就绪的条件下通过请求引脚信号，主动向处理器提出交换数据的请求。CPU与外设、外设与外设之间能并行工作。
+			一般适合于传送数据量少的中低速外部设备，尤其适合实时控制中的紧急事件处理，对于高速外部设备的大批量数据传送不适合。
+	（2）直接存储器存取控制方式（DMA）：CPU 不参加数据传送，而是由 DMA 控制器来实现内存与外设，外设与外设之间的直接传递。
+		此种方式适用于需要大量数据高速传送的场合。CPU 与外设可以并行工作，提高了 CPU 的效率。
+	（3）通道方式：可以实现对外围设备的统一管理和外围设备与内存之间的数据传送。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><p><strong>简述总线的定义：</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：在计算机系统中，各个部件之间传送信息的公共通道叫做总线（BUS），
+	按照所传输的信息种类可划分为数据总线、地址总线、控制总线。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p><strong>简述IDE、SCSI、SATA接口总线：</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：是硬盘和光驱接口标准。
+	IDE：Intergrated Drive Electronics；【电子集成驱动器】16/32位
+	SCSI：Small Computer System Interface；【小型计算机系统接口】32位
+	SATA：串行ATA（Serial ATA），SATA3.0接口。【目前硬盘和光驱的主要接口】
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p><strong>简述IEEE394总线、AGP总线、PCI总线功能：</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：IEEE394总线：是高性能串行总线标准；视频采集、数码影像设备的传输标准。
+	AGP总线：图形加速口：提高视频带宽。
+	PCI总线：（Peripheral Component Interconnect）外设部件互联标准；
+		可以通过桥连接多条PCI总线；PCI总线上的设备可以与CPU并行工作。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p><strong>总线的性能指标：</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：1、总线贷款：数据传输率，单位：bps
+	2、总线位宽：同时传输的二进制位数；
+	一次所能并行传送信息的位数，亦称为数据路宽度。
+	3、总线工作频率：Mhz
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p><strong>什么叫总线周期？8086CPU的一个总线周期包括多少时钟周期，什么情况下要插入Tw等待周期？插入多少个Tw取决于什么因素？</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：8086/8088CPU 把 BIU 完成一次访问主存储器或外设操作所需的时间称为一个总线周期。一个总线周期最少包含 4 个时钟周期（T1~T4）。
+	当访问存储器（读/写）或外设时，存储器或外设不能及时地配合 CPU 传送数据，T3 之后插入一个或多个等待等待周期 Tw。
+	当存储器或外设准备好数据，通过“READY”发“准备好”信号，CPU 接收到这个信号后，会自动完成Tw 状态进人 T4 状态，因此插入多少个 Tw 取决于“READY&quot;信号，即取决于主存或外设的速度。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p><strong>一般接口电路中具有哪些电路器件？</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：（1）输入/输出数据锁存器和缓冲器，用于解决 CPU 与外设之间速度不匹配的矛盾，以及起隔离和缓冲的作用。
+	（2）控制命令和状态寄存器，以存放 CPU 对外设的控制命令以及外设的状态信息。
+	（3）地址译码器，用于选择接口电路中的不同端口（寄存器）。
+	（4）读写控制逻辑。
+	（5）中断控制逻辑。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p><strong>论指令周期、总线周期和时钟周期的关系。</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：（1）执行一条指令所需要的时间称为指令周期；
+	（2）CPU 同外部设备或内存储器之间进行信息交换过程所需要的时间称为总线周期，即启用一次总线进行读或写的时间；
+	（3）时钟脉冲的重复周期称为时钟周期，它是 CPU 主频的倒数；
+	（4）一个指令周期由若干个总线周期组成，一个总线周期又由若干个时钟周期组成；
+	（5）8086CPU 的总线周期至少由 4 个时钟周期组成，当外设不能在 CPU 规定时间内准备好数据时，要在总线周期中插入等待周期。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h2 id="中断"><a href="#中断" class="header-anchor">#</a> 中断</h2> <p><strong>什么是中断？计算机使用中断的好处？</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：
+（1）中断是指当处理器执行主程序时，由于内外部事件转而去执行子程序，当子程序执行完成后返回主程序的过程。（2 分）
+(2) 中断的优点：
+	① 解决快速 CPU 与慢速外设之间的矛盾，使 CPU 可以与外设同时工作，不交换信息时，处理器和外围设备处于各自独立的并行工作状态。提高计算机系统效率。（2 分）
+	② 维持系统可靠正常工作。在程序运行过程中，如出现异常，向处理器发出中断请求，处理器立即采取保护措施。（2 分）
+	③ 计算机实现对控制对象的实时处理，处理器随时响应外设请求并处理。（2 分）
+	④ 计算机可以对故障自行处理。处理器中设有各种故障检测和错误诊断的部件，一旦发现故障或错误，立即发出中断请求，进行故障现场记录和隔离。（2 分）
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><p><strong>简述中断的概念：</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：当CPU执行主程序时，由于内外部事件使得CPU暂时中断当前主程序转而去执行子程序，
+	当子程序执行完之后返回主程序的过程叫做中断。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p><strong>简述中断嵌套：</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：中断嵌套是指中断系统正在执行一个中断服务子程序时，有另一个优先级更高的中断提出中断请求，
+这时会暂停终止当前正在执行的级别较低的中断源的服务程序，去处理级别更高的中断源，待处理完毕，
+再返回到被中断了的中断服务子程序继续执行的过程。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p><strong>中断响应过程中为什么要保护现场，如何保护？</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：因为一般主程序和中断服务程序都可能会用到累加器，PSW寄存器及其他一些寄存器。
+CPU在进入中断服务程序后，用到上述寄存器时，就会破坏它原来存在寄存器中的内容；
+一旦中断返回，将会造成主程序的混乱。因而在进入中断服务程序后，一般要先保护现场，
+然后再执行中断处理程序，在返回主程序以前再恢复现场。
+	保护方法一般是把累加器、PSW寄存器及其他一些与主程序有关的寄存器压入堆栈。
+在保护现场和恢复现场时，为了不使现场受到破坏或者造成混乱，一般规定此时CPU不响应新的中断请求。
+这就要求在编写中断服务程序时，注意在保护现场之前要关中断，在恢复现场之后开中断。
+如果在中断处理时允许有更高级的中断打断它，则在保护现场之后再开中断，恢复现场之前关中断。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p><strong>中断源的识别通常有哪两种方法，并简述其特点：</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：查询中断和向量中断；
+	前者的特点时多个中断源共用一个中断入口服务程序，通过执行一段查询程序，
+确定引起中断的中断源状态，然后做相应的中断处理。
+	后者的特点是每个中断源对应一个中断服务入口地址，由中断向量来指示中断服务程序入口地址。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p><strong>什么是中断类型码、中断向量、中断向量表？在基于8088/8086的微机操作系统中中断类型码和中断向量之间有什么关系？</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：处理机可处理的每种中断的编号为中断类型码。
+	中断向量是指中断处理程序的入口地址，由处理机自动寻址。
+	中断向量表是存放所有类型中断处理程序入口地址的一个默认的内存区域。
+	在 8086 系统中，中断类型码乘以 4 得到向量表的地址指针，
+	从此处读出4 字节内容即为中断向量。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p><strong>8086如何响应一个INTR中断请求？</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：在 INTR 中断请求响应条件满足的情况下，
+	(1) 8086 在连续的两个总线周期中发出INTA中断请求响应信号；
+	(2) 在第二个 INTA信号期间，中断源经数据总线向 8086 发出一字节的中断类型码，8086 收到中断类型码后放入暂存器；
+	(3) 8086 保护现场：标志寄存器入栈，清除 IF、TF 标志位，断点 CS、IP 值入栈；
+	(4) 8086 将中断类型码乘以 4 后得到中断向量表的入口地址，从此地址开始的4 个单元中读出中断服务程序的入口地址（IP，CS）；
+	(5) 8086 从此地址取指令执行，使控制转向中断处理过程。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p><strong>8259A的主要功能是什么？三个寄存器IRR、IMR、ISR各有什么作用？</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：（1）8259 的功能：
+		①可以管理 8 级中断，通过级联的方式，用 9 片 8259 管理 64 级中断。
+		②判断一个中断请求输入信号 IR 是否有效，是否符合信号的电器约定，是否被屏蔽。
+		③有中断优先逻辑，并可对任一中断单独屏蔽或允许。8259A 的 8 个中断请求输入端 IR0~IR7，哪一个能使 INT 输出有效要由编程选定的优先级方式来判定。
+		④CPU 响应中断后，进入中断响应周期INTA ，8259A 能将获得优先级的 IRi所对应的中断类型号送上数据总线提供给 CPU。
+		⑤ 可通过编程选择工作方式。
+	（2）三个寄存器 IRR、IMR 和 ISR 的作用：
+		①中断请求寄存器 IRR：保存 8 条外界中断请求信号 IR0～IR7 的请求状态。Di 位为 1 表示 IRi 引脚有中断请求；为 0 表示该引脚无请求。
+		②中断屏蔽寄存器 IMR：保存对中断请求信号 IR 的屏蔽状态。Di 位为 1 表示 IRi 中断被屏蔽（禁止）；为0 表示允许该中断。
+		③中断服务寄存器 ISR：保存正在被 8259A 服务着的中断状态。Di 位为 1 表示 IRi 中断正在服务中；为 0表示没有被服务。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><h2 id="传送方式及奇偶地址体"><a href="#传送方式及奇偶地址体" class="header-anchor">#</a> 传送方式及奇偶地址体</h2> <p><strong>8086为什么要采用分体结构：</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：存储体以8位（1B）作为基本存储单位；
+访问一个字节时，只用16位数据线中的8位；
+访问一个字时，16位数据线的高8位和低8位同时访问两个存储单元，提高了CPU的效率。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p><strong>如何划分奇偶体：</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：在8086系统中，将总容量为1MB的存储器分为奇地址存储体和偶地址存储体，各为512K；
+	奇体与高8位（D15——D8）相连；
+	偶体与低8位（D7——D0）相连；
+	选择奇体还是偶体由信号BHE！、A0决定。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p><strong>在8086微处理器构成的系统中，什么是存储器的规则字和非规则字？8086微处理器对一个规则字和一个非规则字读写时，有什么区别？</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：规则字：从偶地址开始的字；
+	读写规则字时：只需要一个总线周期，BHE!=0、A0=0
+	非规则字：从奇地址开始的字；
+	读写规则字时：需要两个个总线周期；
+		读奇地址内容D8-D15（BHE!=0、A0=1）、读偶地址内容D0-D7（BHE!=1、A0=0）
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p><strong>简述CPU与外部设备采用中断控制方式传输数据的过程。</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：
+（1）当外部设备需要与CPU进行数据交换时，由接口部件8259芯片发出一个中断请求信号；
+（2）CPU响应这一中断请求，便可在中断服务程序中完成一个字节或一个字的信息交换；
+（3）数据交换完成后，返回原程序。
+（4）CPU每执行一次中断传送数据，要打断原来执行的程序去执行中断服务子程序。
+（5）执行前要保护PSW和断点，执行后再恢复它们。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p><strong>简述中断传送方式和DMA传送方式相比有什么不同。</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：1、中断方式通过程序实现数据传送，而DMA方式直接靠硬件来实现，信息传输速度快。
+	2、CPU对中断的响应是在执行完一条指令之后，而对DMA的响应则可以在指令执行过程中的任何总线周期之后，请求响应快。
+	3、中断方式必须切换程序，要进行CPU现场的保护中恢复操作。DMA仅挪用了一个存储周期，不改变CPU现场，额外花销小。
+	4、DMA请求的优先权比中断请求高。CPU优先响应DMA请求。
+	5、中断方式不仅具有I/O数据传送能力，而且还能处理异常事件，DMA只能进行I/O数据传送。
+总而言之，在进行I/O控制时，DMA控制方式比程序中断控制方式速度快，但程序中断控制方式的应用范国比DMA控制方式广。
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><p><strong>什么叫端口？通常有哪几类端口？计算机对I/O端口编址时采用哪两种方法？在8086/8088系统中，用哪种方法对I/O端口进行编址？</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：
+（1）CPU 和外设进行数据传输时，各类信息在接口中进入不同的寄存器，一般称这些寄存器为端口。（2 分）
+（2）端口通常有 3 类：数据端口、状态端口、控制端口。（3 分）
+（3）计算机对端口编址的两种方法为：计算机对内存和 I/O 端口统一编址；计算机对内存和I/O端口独立编址。（4 分）
+（4）在 8086/8088 系统中用内存和 I/O 端口各自独立编址。（1 分）
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p><strong>比较串行通信与并行通信的优缺点。</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：（1）从传送距离上看：并行通信适宜于近距离的数据传送，通常小于 30 米；而串行通信适宜于远距离的数据传送可以从几米到数千公里；
+	（2）从传送速度上看：并行通信传送数据的速度比串行通信快得多；
+	（3）从传送设备和费用上：在远距离传送中通信线路的费用占很大的比重，因而串行通信的费用由于传送线少，比并行通信的费用低得多。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h2 id="指令周期、总线周期、时钟周期"><a href="#指令周期、总线周期、时钟周期" class="header-anchor">#</a> 指令周期、总线周期、时钟周期</h2> <p><strong>CPU响应中断时，为什么要执行两个连续的中断响应周期？</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：CPU 响应中断时，执行两个连续的中断响应周期，每个响应周期都给出中断响应信号INTA。
+	这是因为第一个总线周期通知中断请求设备，微处理器准备响应中断，中断控制器 8259A 应该准备好中断类型码，8259A 的 ISR 和 IRR 对应位分别置 1 清 0；
+	第二个总线周期中，8259A 把中断类型号送上数据总线，微处理器接收中断类型码，以便得到中断向量，即得到中断服务程序的入口地址。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p><strong>“8086执行了一个总线周期”是指8086做了哪些可能的操作？基本总线周期如何组成？在一个典型的都存储周期中，地址信号、ALE信号 ， <span style="text-decoration:overline;">RD</span> 信号、数据信号分别在何时产生？</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：（1）“8086执行了一个总线周期”是指：
+		1、8086可能从片外的存储器取指令；
+		2、8086可能对片外的存储器或I/O接口进行了一次读/写数据的操作。
+	（2）基本总线周期由T1至T4四个时钟周期组成。
+	（3）在一个典型的读存储器总线周期中，地址信号在 T1 周期内产生，ALE 信号在T1 周期内产生，
+		RD信号在 T2 周期内产生，数据信号一般在 T3 周期内产生，若存储器在 T3 内来不及提供数据，
+		8086 会在总线周期中的 T3 后插入等待状态 Tw，存储器将在某 Tw 中给出数据。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><p><strong>在8086中，逻辑地址、偏移地址、物理地址分别指的是什么？具体说明。</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：逻辑地址是在程序中对存储器地址的一种表示方法，由段地址和段内偏移地址两部分组成，
+	如 1234H：0088H。
+	偏移地址是指段内某个存储单元相对该段首地址的差值，是一个 16 位的二进制代码。物理地址是 8086 芯片引线送出的 20 位地址码，用来指出一个特定的存储单元。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p><strong>简述流水线技术，8086怎样实现了最简单的流水线？</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：流水线是指在程序执行时多条指令重叠进行操作的一种并行处理实现技术。流水线的并行处理是指完成一条指令的各个部件在时间上是可以同时重叠工作，分别同时为多条指令的不同部分进行工作，以提高各部件的利用率来提高指令的平均执行速度。流水线技术是把一个重复的过程分解为若干子过程，每个子过程由专门的功能部件来
+实现，将多个处理过程在时间上错开，依次通过个功能段，这样，每个子过程就可以与其他子过程并行进行。
+	8086 中，指令的读取是在 BIU 单元，而指令的执行是在 EU 单元。因为 BIU 和 EU 两个单元相互独立、分别完成各自操作，所以可以并行操作。也就是说，在 EU 单元对一个指令进行译码执行时，BIU 单元可以同时对后续指令进行读取；这就是最简单的指令流水线技术。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p><strong>比较8255A三种工作方式的应用场合有何区别？</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>答：方式 0 适用于同步传送和查询传送方式，
+	方式 1 适用于外设在能提供选通信号或数据接收信号的场合，且采用中断传送方式比较方便；
+	方式 2 适用于一个并行外设既可以作为输入设备，又可以作为输出设备，并且输入和输出不会同时进行的场合。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div></div></div> <!----> <div class="page-edit"><div class="edit-link"><a href="https://github.com/wfmiss/notes/edit/master/docs/02.练习题/05.微机原理简答题（分类）.md" target="_blank" rel="noopener noreferrer">在 GitHub 上编辑此页</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <!----> <div class="last-updated"><span class="prefix">最后更新:</span> <span class="time">2022/06/26, 10:06:00</span></div></div> <div class="page-nav-wapper"><div class="page-nav-centre-wrap"><a href="/c1/5/" class="page-nav-centre page-nav-centre-prev"><div class="tooltip">输入输出系统接口芯片</div></a> <!----></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/c1/5/" class="prev">输入输出系统接口芯片</a></span> <!----></p></div></div></div> <div class="article-list"><div class="article-title"><a href="/archives/" class="iconfont icon-bi">最近更新</a></div> <div class="article-wrapper"><dl><dd>01</dd> <dt><a href="/c1/4/"><div>
+            微机原理指令集
+            <!----></div></a> <span class="date">04-11</span></dt></dl><dl><dd>02</dd> <dt><a href="/c1/5/"><div>
+            输入输出系统接口芯片
+            <!----></div></a> <span class="date">04-11</span></dt></dl><dl><dd>03</dd> <dt><a href="/c/note8/"><div>
+            变量的存储类别及作用域
+            <!----></div></a> <span class="date">03-23</span></dt></dl> <dl><dd></dd> <dt><a href="/archives/" class="more">更多文章&gt;</a></dt></dl></div></div></main></div> <div class="footer"><!----> 
+  Theme by
+  <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank" title="本站主题">Vdoing</a> 
+    | Copyright © 2021-2022
+    <span>wfmiss | notes</span></div> <div class="buttons"><div title="返回顶部" class="button blur go-to-top iconfont icon-fanhuidingbu" style="display:none;"></div> <div title="去评论" class="button blur go-to-comment iconfont icon-pinglun" style="display:none;"></div> <div title="主题模式" class="button blur theme-mode-but iconfont icon-zhuti"><ul class="select-box" style="display:none;"><li class="iconfont icon-zidong">
+          跟随系统
+        </li><li class="iconfont icon-rijianmoshi">
+          浅色模式
+        </li><li class="iconfont icon-yejianmoshi">
+          深色模式
+        </li><li class="iconfont icon-yuedu">
+          阅读模式
+        </li></ul></div></div> <!----> <!----> <!----></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.f3f1a81b.js" defer></script><script src="/assets/js/2.b7d28b34.js" defer></script><script src="/assets/js/13.c98c26c1.js" defer></script>
+  </body>
+</html>
